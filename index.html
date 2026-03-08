@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zenix Universe</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background:linear-gradient(135deg,#0f0f0f,#1c1c1c);
+    color:white;
+    overflow-x:hidden;
+}
+
+/* Animación de entrada */
+.fade-in{
+    opacity:0;
+    transform:translateY(20px);
+    animation:fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp{
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.header{
+    text-align:center;
+    padding:40px 20px;
+    font-size:28px;
+    font-weight:700;
+    background:linear-gradient(90deg,#00ffcc,#00ccff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+    padding:20px;
+}
+
+.product{
+    backdrop-filter:blur(12px);
+    background:rgba(255,255,255,0.05);
+    border-radius:20px;
+    padding:25px;
+    margin-bottom:30px;
+    border:1px solid rgba(255,255,255,0.08);
+    box-shadow:0 0 25px rgba(0,255,153,0.15);
+    transition:0.3s;
+}
+
+.product:hover{
+    transform:scale(1.02);
+    box-shadow:0 0 40px rgba(0,255,153,0.3);
+}
+
+.product h2{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#00ffcc;
+}
+
+.plan{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px;
+    border-radius:12px;
+    margin:10px 0;
+    background:rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.plan:hover{
+    background:rgba(0,255,153,0.08);
+}
+
+.price{
+    font-weight:bold;
+    color:#00ff99;
+}
+
+button{
+    padding:8px 18px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(90deg,#00ff99,#00ccff);
+    color:black;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 15px #00ffcc;
+}
+
+.footer{
+    text-align:center;
+    padding:30px;
+    font-size:12px;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header fade-in">
+ZENIX UNIVERSE STORE
+</div>
+
+<div class="container fade-in" style="animation-delay:0.3s;">
+
+<!-- DRIP -->
+<div class="product">
+<h2>🚀 DRIP CLIENT</h2>
+
+<div class="plan">
+<div>1 Día</div>
+<div class="price">$2 USD</div>
+<a href="https://paypal.me/JesusBarandica/2" target="_blank">
+<button>Comprar</button>
+</a>
+</div>
+
+<div class="plan">
+<div>7 Días</div>
+<div class="price">$6 USD</div>
+<a href="https://paypal.me/JesusBarandica/6" target="_blank">
+<button>Comprar</button>
+</a>
+</div>
+
+<div class="plan">
+<div>15 Días</div>
+<div class="price">$12 USD</div>
+<a href="https://paypal.me/JesusBarandica/12" target="_blank">
+<button>Comprar</button>
+</a>
+</div>
+
+<div class="plan">
+<div>30 Días</div>
+<div class="price">$20 USD</div>
+<a href="https://paypal.me/JesusBarandica/20" target="_blank">
+<button>Comprar</button>
+</a>
+</div>
+
+</div>
+
+<!-- CUBAN -->
+<div class="product">
+<h2>💎 CUBAN</h2>
+
+<div class="plan"><div>1 Día</div><div class="price">$2 USD</div><a href="https://paypal.me/JesusBarandica/2" target="_blank"><button>Comprar</button></a></div>
+<div class="plan"><div>7 Días</div><div class="price">$6 USD</div><a href="https://paypal.me/JesusBarandica/6" target="_blank"><button>Comprar</button></a></div>
+<div class="plan"><div>15 Días</div><div class="price">$12 USD</div><a href="https://paypal.me/JesusBarandica/12" target="_blank"><button>Comprar</button></a></div>
+<div class="plan"><div>30 Días</div><div class="price">$20 USD</div><a href="https://paypal.me/JesusBarandica/20" target="_blank"><button>Comprar</button></a></div>
+
+</div>
+
+<!-- HG -->
+<div class="product">
+<h2>⚡ HG</h2>
+
+<div class="plan"><div>1 Día</div><div class="price">$2 USD</div><a href="https://paypal.me/JesusBarandica/2" target="_blank"><button>Comprar</button></a></div>
+<div class="plan"><div>7 Días</div><div class="price">$6 USD</div><a href="https://paypal.me/JesusBarandica/6" target="_blank"><button>Comprar</button></a></div>
+<div class="plan"><div>15 Días</div><div class="price">$12 USD</div><a href="https://paypal.me/JesusBarandica/12" target="_blank"><button>Comprar</button></a></div>
+<div class="plan"><div>30 Días</div><div class="price">$20 USD</div><a href="https://paypal.me/JesusBarandica/20" target="_blank"><button>Comprar</button></a></div>
+
+</div>
+
+<!-- STRICK BR -->
+<div class="product">
+<h2>🔥 STRICK BR</h2>
+
+<div class="plan"><div>1 Día</div><div class="price">$2 USD</div><a href="https://paypal.me/JesusBarandica/2" target="_blank"><button>Comprar</button></a></div>
+<div class="plan"><div>7 Días</div><div class="price">$6 USD</div><a href="https://paypal.me/JesusBarandica/6" target="_blank"><button>Comprar</button></a></div>
+<div class="plan"><div>15 Días</div><div class="price">$12 USD</div><a href="https://paypal.me/JesusBarandica/12" target="_blank"><button>Comprar</button></a></div>
+<div class="plan"><div>30 Días</div><div class="price">$20 USD</div><a href="https://paypal.me/JesusBarandica/20" target="_blank"><button>Comprar</button></a></div>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Zenix Universe - Premium Digital Store
+</div>
+
+</body>
+</html>
